@@ -1,0 +1,169 @@
+# Security Guard - Translation Template
+# Copyright (C) 2026 by G. Martins
+# This file is distributed under the same license as the Security Guard package (GPLv3+).
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Security Guard 1.0.0\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Security Guard"
+msgstr "Security Guard"
+
+msgid "This plugin requires PHP >= %s."
+msgstr "Este plugin requer PHP >= %s."
+
+msgid "This plugin requires GLPI >= %1$s and <= %2$s."
+msgstr "Este plugin requer GLPI >= %1$s e <= %2$s."
+
+msgid "Blocked login attempt for \"%s\" from IP %s (locked until %s)."
+msgstr "Tentativa de login bloqueada para \"%s\" a partir do IP %s (bloqueado até %s)."
+
+msgid "Successful authentication for user \"%s\" from IP %s."
+msgstr "Autenticação bem-sucedida para o usuário \"%s\" a partir do IP %s."
+
+msgid "Failed login attempt for \"%s\" from allowlisted IP %s."
+msgstr "Tentativa de login falha para \"%s\" a partir do IP permitido %s."
+
+msgid "Lockout triggered for \"%s\" from IP %s after %d failed attempts (locked until %s)."
+msgstr "Bloqueio acionado para \"%s\" a partir do IP %s após %d tentativas falhas (bloqueado até %s)."
+
+msgid "Failed login attempt (%d/%d) for \"%s\" from IP %s."
+msgstr "Tentativa de login falha (%d/%d) para \"%s\" a partir do IP %s."
+
+msgid "Manual unlock executed for user \"%s\" / IP %s."
+msgstr "Desbloqueio manual executado para o usuário \"%s\" / IP %s."
+
+msgid "High-privilege profile #%d (config:UPDATE) assigned to user #%d in entity #%d."
+msgstr "Perfil de alto privilégio #%d (config:UPDATE) atribuído ao usuário #%d na entidade #%d."
+
+msgid "Profile #%d assigned to user #%d in entity #%d."
+msgstr "Perfil #%d atribuído ao usuário #%d na entidade #%d."
+
+msgid "User account \"%s\" (#%d) created."
+msgstr "Conta de usuário \"%s\" (#%d) criada."
+
+msgid "Password updated for user \"%s\" (#%d)."
+msgstr "Senha atualizada para o usuário \"%s\" (#%d)."
+
+msgid "API or personal token rotated for user \"%s\" (#%d)."
+msgstr "Token pessoal ou de API rotacionado para o usuário \"%s\" (#%d)."
+
+msgid "Status changed for user \"%s\" (#%d): is_active=%d, is_deleted=%d."
+msgstr "Status alterado para o usuário \"%s\" (#%d): is_active=%d, is_deleted=%d."
+
+msgid "Profile #%d removed from user #%d."
+msgstr "Perfil #%d removido do usuário #%d."
+
+msgid "User account \"%s\" (#%d) moved to trash (is_deleted=1)."
+msgstr "Conta de usuário \"%s\" (#%d) enviada para a lixeira (is_deleted=1)."
+
+msgid "User account \"%s\" (#%d) permanently purged."
+msgstr "Conta de usuário \"%s\" (#%d) excluída permanentemente."
+
+msgid "Too many failed login attempts. Please try again later."
+msgstr "Muitas tentativas de login malsucedidas. Tente novamente mais tarde."
+
+msgid "Lockout entry unlocked successfully."
+msgstr "Registro de bloqueio liberado com sucesso."
+
+msgid "Purged %d expired audit log entries."
+msgstr "%d registros de auditoria expirados foram removidos."
+
+msgid "Security Guard configuration saved successfully."
+msgstr "Configuração do Security Guard salva com sucesso."
+
+msgid "Brute-Force Protection & Audit Policy"
+msgstr "Proteção contra Força Bruta e Política de Auditoria"
+
+msgid "Enable protection and auditing"
+msgstr "Ativar proteção e auditoria"
+
+msgid "Yes"
+msgstr "Sim"
+
+msgid "No"
+msgstr "Não"
+
+msgid "Max failed attempts before lockout (3-50)"
+msgstr "Máximo de tentativas falhas antes do bloqueio (3-50)"
+
+msgid "Failure observation window (minutes)"
+msgstr "Janela de observação de falhas (minutos)"
+
+msgid "Lockout duration (minutes)"
+msgstr "Duração do bloqueio (minutos)"
+
+msgid "Honor X-Forwarded-For from trusted proxies"
+msgstr "Considerar X-Forwarded-For de proxies confiáveis"
+
+msgid "Trusted proxy IPs / CIDRs (comma-separated)"
+msgstr "IPs / CIDRs de proxies confiáveis (separados por vírgula)"
+
+msgid "Allowlisted IPs / CIDRs (never locked out)"
+msgstr "IPs / CIDRs na lista de permissão (nunca bloqueados)"
+
+msgid "Audit login successes and failures"
+msgstr "Auditar sucessos e falhas de login"
+
+msgid "Audit user and profile privilege changes"
+msgstr "Auditar alterações de privilégios de usuário e perfil"
+
+msgid "Audit log retention (days)"
+msgstr "Retenção de logs de auditoria (dias)"
+
+msgid "Save settings"
+msgstr "Salvar configurações"
+
+msgid "Active Lockouts"
+msgstr "Bloqueios Ativos"
+
+msgid "No active lockouts at the moment."
+msgstr "Nenhum bloqueio ativo no momento."
+
+msgid "Username"
+msgstr "Usuário"
+
+msgid "IP Address"
+msgstr "Endereço IP"
+
+msgid "Failed Attempts"
+msgstr "Tentativas Falhas"
+
+msgid "Last Attempt"
+msgstr "Última Tentativa"
+
+msgid "Locked Until"
+msgstr "Bloqueado Até"
+
+msgid "Actions"
+msgstr "Ações"
+
+msgid "Unlock"
+msgstr "Desbloquear"
+
+msgid "Recent Security Audit Logs (Last 100)"
+msgstr "Logs Recentes de Auditoria de Segurança (Últimos 100)"
+
+msgid "Purge expired logs"
+msgstr "Limpar logs expirados"
+
+msgid "No audit events recorded yet."
+msgstr "Nenhum evento de auditoria registrado até o momento."
+
+msgid "Date / Time"
+msgstr "Data / Hora"
+
+msgid "Severity"
+msgstr "Severidade"
+
+msgid "Event Type"
+msgstr "Tipo de Evento"
+
+msgid "Actor User ID"
+msgstr "ID do Usuário Autor"
+
+msgid "Summary"
+msgstr "Resumo"

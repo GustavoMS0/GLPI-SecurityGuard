@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+   <name>Security Guard</name>
+   <key>securityguard</key>
+   <state>stable</state>
+   <logo>https://raw.githubusercontent.com/GustavoMS0/GLPI-SecurityGuard/main/securityguard.png</logo>
+   <description>
+      <short>
+         <en>Brute-force login protection, temporary IP/account lockouts, and privilege escalation audit trail for GLPI.</en>
+         <pt>Proteção contra força bruta no login, bloqueio temporário por IP/conta e trilha de auditoria de privilégios para GLPI.</pt>
+      </short>
+      <long>
+         <en>Protects GLPI 10, 11, and 12 against brute-force authentication attacks across both web login (front/login.php) and REST API (apirest.php/initSession). Blocks locked-out IPs or accounts before Auth::login() runs to preserve database and LDAP resources, safely resolves client IPs behind trusted reverse proxies, supports IP/CIDR allowlists, and records an audit trail for privilege escalations (Profile_User assignments) and sensitive User account changes without ever logging passwords or tokens.</en>
+         <pt>Protege o GLPI 10, 11 e 12 contra ataques de força bruta na autenticação web (front/login.php) e na API REST (apirest.php/initSession). Interrompe tentativas bloqueadas antes da execução de Auth::login() para poupar recursos de banco e LDAP, resolve o IP do cliente com segurança atrás de proxies reversos confiáveis, suporta listas de permissão por IP/CIDR e mantém trilha de auditoria para atribuições de perfil (Profile_User) e alterações sensíveis em contas de usuário sem jamais registrar hashes de senha ou tokens.</pt>
+      </long>
+   </description>
+   <homepage>https://github.com/GustavoMS0/GLPI-SecurityGuard</homepage>
+   <download>https://github.com/GustavoMS0/GLPI-SecurityGuard/releases</download>
+   <issues>https://github.com/GustavoMS0/GLPI-SecurityGuard/issues</issues>
+   <readme>https://github.com/GustavoMS0/GLPI-SecurityGuard/blob/main/README.md</readme>
+   <authors>
+      <author>G. Martins</author>
+   </authors>
+   <versions>
+      <version>
+         <num>1.0.0</num>
+         <compatibility>~10.0.0 || ~11.0.0 || ~12.0.0</compatibility>
+         <download_url>https://github.com/GustavoMS0/GLPI-SecurityGuard/releases/download/v1.0.0/securityguard-1.0.0.zip</download_url>
+      </version>
+   </versions>
+   <langs>
+      <lang>pt_BR</lang>
+   </langs>
+   <license>GPLv3+</license>
+   <tags>
+      <en>
+         <tag>security</tag>
+         <tag>authentication</tag>
+         <tag>audit</tag>
+         <tag>bruteforce</tag>
+         <tag>lockout</tag>
+      </en>
+      <pt>
+         <tag>segurança</tag>
+         <tag>autenticação</tag>
+         <tag>auditoria</tag>
+         <tag>força bruta</tag>
+         <tag>bloqueio</tag>
+      </pt>
+   </tags>
+</root>

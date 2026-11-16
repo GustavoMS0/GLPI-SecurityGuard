@@ -1,0 +1,135 @@
+/**
+ * Security Guard - Estilos da interface administrativa
+ * Copyright (C) 2026 by G. Martins (GPLv3+)
+ */
+
+.sg-container {
+    max-width: 1180px;
+    margin: 1.25rem auto;
+    padding: 0 1rem;
+}
+
+.sg-card {
+    background: #ffffff;
+    border: 1px solid #dce1e7;
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.25rem;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+}
+
+.sg-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.sg-card-title {
+    margin: 0 0 1rem 0;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #1e293b;
+}
+
+.sg-card-header .sg-card-title {
+    margin-bottom: 0;
+}
+
+.sg-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+}
+
+.sg-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.sg-field-wide {
+    grid-column: 1 / -1;
+}
+
+.sg-field label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #334155;
+}
+
+.sg-field input,
+.sg-field select {
+    padding: 0.45rem 0.65rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    background: #fff;
+    color: #0f172a;
+}
+
+.sg-actions {
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sg-inline-form {
+    display: inline-block;
+    margin: 0;
+}
+
+.sg-table-wrap {
+    overflow-x: auto;
+}
+
+.sg-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.875rem;
+}
+
+.sg-table th,
+.sg-table td {
+    padding: 0.6rem 0.75rem;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.sg-table th {
+    background: #f8fafc;
+    font-weight: 600;
+    color: #475569;
+}
+
+.sg-badge {
+    display: inline-block;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+.sg-badge-info {
+    background: #e0f2fe;
+    color: #0369a1;
+}
+
+.sg-badge-warning {
+    background: #fef3c7;
+    color: #b45309;
+}
+
+.sg-badge-critical {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.sg-empty {
+    margin: 0.5rem 0 0;
+    color: #64748b;
+    font-size: 0.9rem;
+}
