@@ -2,7 +2,7 @@
 <root>
    <name>Security Guard</name>
    <key>securityguard</key>
-   <state>stable</state>
+   <state>beta</state>
    <logo>https://raw.githubusercontent.com/GustavoMS0/GLPI-SecurityGuard/main/securityguard.png</logo>
    <description>
       <short>
